@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Button, Text, View, Image } from 'react-native';
 
 let age = 25;
@@ -9,12 +10,21 @@ const someFruitName = () => {
 const buttonPress = () => {
   console.warn('Button Pressed');
 };
-const buttonPress2 = val => {
-  console.warn('Button Pressed', val);
-};
+// const buttonPress2 = val => {
+//   console.warn('Button Pressed', val);
+// };
 const App = () => {
   const img = require('./assets/images/Shop.png');
   const name = 'Gaurav';
+  const [myName, setMyName] = useState('Gaurav');
+
+  const setMyFullName = () => {
+    if (myName == 'Gaurav') {
+      setMyName('Gaurav Pushpam');
+    } else {
+      setMyName('Gaurav');
+    }
+  };
 
   return (
     <View>
@@ -52,11 +62,15 @@ const App = () => {
 
       {/* Button and OnPress Lec 8 */}
       <Button title="Press Here" onPress={buttonPress} color={'red'} />
-      <Button
+      {/* <Button
         title="Press Here And Send Parameter"
         onPress={() => buttonPress2('Gaurav')}
         color={'blue'}
-      />
+      /> */}
+
+      {/* Lec 9  State in RN */}
+      <Button onPress={setMyFullName} color={'red'} title="Change Name" />
+      <Text>{myName}</Text>
     </View>
   );
 };
