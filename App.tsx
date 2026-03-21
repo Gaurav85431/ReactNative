@@ -71,6 +71,14 @@ const App = () => {
       {/* Lec 9  State in RN */}
       <Button onPress={setMyFullName} color={'red'} title="Change Name" />
       <Text>{myName}</Text>
+
+      {/*   Lec 10 Props in RN */}
+      <Button
+        onPress={() => setMyName('Gaurav GAURAV (Props)')}
+        color={'red'}
+        title="Change Name on Props also"
+      />
+      <ComponentProps name={myName} />
     </View>
   );
 };
@@ -99,6 +107,14 @@ const NewUserComponent = () => {
   return (
     <View>
       <Text style={{ fontSize: 30 }}>My Component: </Text>
+    </View>
+  );
+};
+
+const ComponentProps = propsData => {
+  return (
+    <View>
+      <Text>{propsData.name}</Text>
     </View>
   );
 };
