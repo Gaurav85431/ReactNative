@@ -1,10 +1,16 @@
-import { Text, View, Image } from 'react-native';
+import { Button, Text, View, Image } from 'react-native';
 
 let age = 25;
 var email = 'gaurav@gmail.com';
 
 const someFruitName = () => {
   return 'Apple, Banana';
+};
+const buttonPress = () => {
+  console.warn('Button Pressed');
+};
+const buttonPress2 = val => {
+  console.warn('Button Pressed', val);
 };
 const App = () => {
   const img = require('./assets/images/Shop.png');
@@ -43,6 +49,14 @@ const App = () => {
       {/* <UserComponent mname="Gaurav" mage={25} memail="gaurav@gmail.com" /> */}
 
       <NewUserComponent />
+
+      {/* Button and OnPress Lec 8 */}
+      <Button title="Press Here" onPress={buttonPress} color={'red'} />
+      <Button
+        title="Press Here And Send Parameter"
+        onPress={() => buttonPress2('Gaurav')}
+        color={'blue'}
+      />
     </View>
   );
 };
