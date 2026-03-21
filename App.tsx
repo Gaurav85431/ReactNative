@@ -1,19 +1,21 @@
 import { Text, View, Image } from 'react-native';
 
+let age = 25;
+var email = 'gaurav@gmail.com';
+
+const someFruitName = () => {
+  return 'Apple, Banana';
+};
 const App = () => {
   const img = require('./assets/images/Shop.png');
+  const name = 'Gaurav';
 
   return (
     <View>
       <Text>Hello React Native Gaurav</Text>
-      <Text style={{ fontSize: 30 }}>Hello React Native</Text>
-      <Text style={{ backgroundColor: 'red' }}>Hello React Native Gaurav</Text>
 
       {/*  Internet ke Image URL se image preview */}
-      <Image
-        source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
-        style={{ width: 200, height: 200 }}
-      />
+
       <Image
         source={{
           uri: 'https://media.licdn.com/dms/image/v2/D5603AQFis5j60s0GFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1704472456130?e=2147483647&v=beta&t=GqsPaR45vjIf7Eb-w0qajxzzhfhd3gKfvV3kromSewI',
@@ -26,12 +28,15 @@ const App = () => {
 
       <Image source={img} style={{ width: 150, height: 150 }} /> */}
 
-      <Image
-        source={{
-          uri: 'https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying.gif',
-        }}
-        style={{ width: 200, height: 200 }}
-      />
+      {/* VARIABLE and DYNAMIC Values  lec 6*/}
+      <Text style={{ fontSize: 40 }}>Name: {name}</Text>
+      <Text style={{ fontSize: 40 }}>Email: {email}</Text>
+      <Text style={{ fontSize: 40 }}>Age: {age}</Text>
+      <Text style={{ fontSize: 40 }}>Allowed Fruit: {someFruitName()}</Text>
+      <Text style={{ fontSize: 40 }}>Add (20,30): {20 + 30}</Text>
+      <Text style={{ fontSize: 40 }}>
+        isElegible: {age > 18 ? 'Yes' : 'No'}
+      </Text>
     </View>
   );
 };
