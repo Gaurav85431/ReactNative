@@ -78,7 +78,7 @@ const App = () => {
         color={'red'}
         title="Change Name on Props also"
       />
-      <ComponentProps name={myName} />
+      <ComponentProps name={myName} age={25} />
     </View>
   );
 };
@@ -114,7 +114,9 @@ const NewUserComponent = () => {
 const ComponentProps = propsData => {
   return (
     <View>
+      <Text>This is Props Called</Text>
       <Text>{propsData.name}</Text>
+      <Text>{propsData.age}</Text>
     </View>
   );
 };
