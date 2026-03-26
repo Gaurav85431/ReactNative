@@ -4,6 +4,7 @@ import StyleReactNative from './ComponentLec11/StyleSheet';
 import TextInputField from './ComponentLec11/TextInputField';
 import FormInput from './ComponentLec11/FormInput';
 import FlatListComponent from './ComponentLec11/FlatList';
+import ListWithMap from './ComponentLec11/ListWithMap';
 
 const App = () => {
   return (
@@ -14,7 +15,11 @@ const App = () => {
 
       {/* <FormInput /> */}
 
-      <FlatListComponent />
+      {/* Lec 14 */}
+      {/* <FlatListComponent /> */}
+
+      {/* Lec 15 */}
+      <ListWithMap />
     </View>
   );
 };
