@@ -5,6 +5,7 @@ import TextInputField from './ComponentLec11/TextInputField';
 import FormInput from './ComponentLec11/FormInput';
 import FlatListComponent from './ComponentLec11/FlatList';
 import ListWithMap from './ComponentLec11/ListWithMap';
+import GridList from './ComponentLec11/GridList';
 
 const App = () => {
   return (
@@ -19,7 +20,9 @@ const App = () => {
       {/* <FlatListComponent /> */}
 
       {/* Lec 15 */}
-      <ListWithMap />
+      {/* <ListWithMap /> */}
+
+      <GridList />
     </View>
   );
 };
