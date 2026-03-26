@@ -6,6 +6,7 @@ import FormInput from './ComponentLec11/FormInput';
 import FlatListComponent from './ComponentLec11/FlatList';
 import ListWithMap from './ComponentLec11/ListWithMap';
 import GridList from './ComponentLec11/GridList';
+import FlatListLoop from './ComponentLec11/FlatListLoop';
 
 const App = () => {
   return (
@@ -22,7 +23,10 @@ const App = () => {
       {/* Lec 15 */}
       {/* <ListWithMap /> */}
 
-      <GridList />
+      {/* Lec 16 */}
+      {/* <GridList /> */}
+
+      <FlatListLoop />
     </View>
   );
 };
