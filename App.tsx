@@ -13,6 +13,7 @@ import ClassComponentTwo from './ComponentLec11/Class-Component/ClassComponentTw
 import UseEffectHook from './ComponentLec11/Hooks/UseEffect';
 import ShowHide from './ComponentLec11/ShowHideComponent';
 import UnmountedComponent from './ComponentLec11/UnmountComponent';
+import ResponsiveDesign from './ComponentLec11/ResponsiveDesign';
 
 const App = () => {
   return (
@@ -51,7 +52,10 @@ const App = () => {
       {/* <ShowHide /> */}
 
       {/*  Lec 26   Unmounted Component */}
-      <UnmountedComponent />
+      {/* <UnmountedComponent /> */}
+
+      {/*  Lec 27 Responsive Layout Flexbox */}
+      <ResponsiveDesign />
     </View>
   );
 };
