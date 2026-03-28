@@ -13,9 +13,11 @@ const SectionListList = () => {
       <Text style={{ fontSize: 30 }}>Section List In React Native</Text>
       <SectionList
         sections={userData}
+        // To print item
         renderItem={({ item }) => (
           <Text style={{ marginLeft: 20 }}>{item}</Text>
         )}
+        // To Print Header(koi v item me se)
         renderSectionHeader={({ section: { name } }) => (
           <Text style={{ fontSize: 25, color: 'red' }}>{name}</Text>
         )}
