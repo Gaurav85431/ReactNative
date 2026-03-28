@@ -8,6 +8,7 @@ import ListWithMap from './ComponentLec11/ListWithMap';
 import GridList from './ComponentLec11/GridList';
 import FlatListLoop from './ComponentLec11/FlatListLoop';
 import SectionListList from './ComponentLec11/SectionList';
+import ClassComponent from './ComponentLec11/Class-Component/ClassComponent';
 
 const App = () => {
   return (
@@ -31,7 +32,10 @@ const App = () => {
       {/* <FlatListLoop /> */}
 
       {/* Lec18 */}
-      <SectionListList />
+      {/* <SectionListList /> */}
+
+      {/* L19 */}
+      <ClassComponent />
     </View>
   );
 };
