@@ -11,6 +11,7 @@ import SectionListList from './ComponentLec11/SectionList';
 import ClassComponent from './ComponentLec11/Class-Component/ClassComponent';
 import ClassComponentTwo from './ComponentLec11/Class-Component/ClassComponentTwo';
 import UseEffectHook from './ComponentLec11/Hooks/UseEffect';
+import ShowHide from './ComponentLec11/ShowHideComponent';
 
 const App = () => {
   return (
@@ -42,8 +43,11 @@ const App = () => {
       {/* L20 */}
       {/* <ClassComponentTwo /> */}
 
-      {/* L21-22 (Hook) L23 useEffect */}
-      <UseEffectHook />
+      {/* L21-22 (Hook) L23 ,24 useEffect */}
+      {/* <UseEffectHook /> */}
+
+      {/* L25 Show & Hide */}
+      <ShowHide />
     </View>
   );
 };
