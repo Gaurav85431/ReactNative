@@ -12,6 +12,7 @@ import ClassComponent from './ComponentLec11/Class-Component/ClassComponent';
 import ClassComponentTwo from './ComponentLec11/Class-Component/ClassComponentTwo';
 import UseEffectHook from './ComponentLec11/Hooks/UseEffect';
 import ShowHide from './ComponentLec11/ShowHideComponent';
+import UnmountedComponent from './ComponentLec11/UnmountComponent';
 
 const App = () => {
   return (
@@ -47,7 +48,10 @@ const App = () => {
       {/* <UseEffectHook /> */}
 
       {/* L25 Show & Hide */}
-      <ShowHide />
+      {/* <ShowHide /> */}
+
+      {/*  Lec 26   Unmounted Component */}
+      <UnmountedComponent />
     </View>
   );
 };
