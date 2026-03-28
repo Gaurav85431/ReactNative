@@ -10,6 +10,7 @@ import FlatListLoop from './ComponentLec11/FlatListLoop';
 import SectionListList from './ComponentLec11/SectionList';
 import ClassComponent from './ComponentLec11/Class-Component/ClassComponent';
 import ClassComponentTwo from './ComponentLec11/Class-Component/ClassComponentTwo';
+import UseEffectHook from './ComponentLec11/Hooks/UseEffect';
 
 const App = () => {
   return (
@@ -39,7 +40,10 @@ const App = () => {
       {/* <ClassComponent /> */}
 
       {/* L20 */}
-      <ClassComponentTwo />
+      {/* <ClassComponentTwo /> */}
+
+      {/* L21-22 (Hook) L23 useEffect */}
+      <UseEffectHook />
     </View>
   );
 };
