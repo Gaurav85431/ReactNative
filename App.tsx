@@ -14,6 +14,7 @@ import UseEffectHook from './ComponentLec11/Hooks/UseEffect';
 import ShowHide from './ComponentLec11/ShowHideComponent';
 import UnmountedComponent from './ComponentLec11/UnmountComponent';
 import ResponsiveDesign from './ComponentLec11/ResponsiveDesign';
+import StyleButton from './ComponentLec11/ButtonStyle';
 
 const App = () => {
   return (
@@ -55,7 +56,10 @@ const App = () => {
       {/* <UnmountedComponent /> */}
 
       {/*  Lec 27 Responsive Layout Flexbox */}
-      <ResponsiveDesign />
+      {/* <ResponsiveDesign /> */}
+
+      {/* L28 Touchable Highlight(Button) */}
+      <StyleButton />
     </View>
   );
 };
