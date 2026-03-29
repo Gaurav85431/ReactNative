@@ -16,6 +16,7 @@ import UnmountedComponent from './ComponentLec11/UnmountComponent';
 import ResponsiveDesign from './ComponentLec11/ResponsiveDesign';
 import StyleButton from './ComponentLec11/ButtonStyle';
 import RadioButton from './ComponentLec11/RadioButton';
+import ActivityIndicatorLOADER from './ComponentLec11/ActivityIndicatorLOADER';
 
 const App = () => {
   return (
@@ -62,8 +63,11 @@ const App = () => {
       {/* L28 Touchable Highlight(Button) */}
       {/* <StyleButton /> */}
 
-      {/* L29  Radio Button */}
-      <RadioButton />
+      {/* L29 , L30  Radio Button */}
+      {/* <RadioButton /> */}
+
+      {/*  L31 Activity  Indicator (LOADER) */}
+      <ActivityIndicatorLOADER />
     </View>
   );
 };
