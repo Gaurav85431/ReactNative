@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { StatusBar, Text, View } from 'react-native';
 import StyleReactNative from './ComponentLec11/StyleSheet';
 import TextInputField from './ComponentLec11/TextInputField';
 import FormInput from './ComponentLec11/FormInput';
@@ -19,6 +19,7 @@ import RadioButton from './ComponentLec11/RadioButton';
 import ActivityIndicatorLOADER from './ComponentLec11/ActivityIndicatorLOADER';
 import DialogBoxMODAL from './ComponentLec11/DialogBoxModal';
 import PressableLongPress from './ComponentLec11/Pressable';
+import StatusBarRN from './ComponentLec11/StatusBar';
 
 const App = () => {
   return (
@@ -75,7 +76,10 @@ const App = () => {
       {/* <DialogBoxMODAL /> */}
 
       {/* L33 Pressable */}
-      <PressableLongPress />
+      {/* <PressableLongPress /> */}
+
+      {/* L34 Status Bar */}
+      <StatusBarRN />
     </View>
   );
 };
