@@ -15,6 +15,7 @@ import ShowHide from './ComponentLec11/ShowHideComponent';
 import UnmountedComponent from './ComponentLec11/UnmountComponent';
 import ResponsiveDesign from './ComponentLec11/ResponsiveDesign';
 import StyleButton from './ComponentLec11/ButtonStyle';
+import RadioButton from './ComponentLec11/RadioButton';
 
 const App = () => {
   return (
@@ -59,7 +60,10 @@ const App = () => {
       {/* <ResponsiveDesign /> */}
 
       {/* L28 Touchable Highlight(Button) */}
-      <StyleButton />
+      {/* <StyleButton /> */}
+
+      {/* L29  Radio Button */}
+      <RadioButton />
     </View>
   );
 };
