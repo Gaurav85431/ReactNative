@@ -18,6 +18,7 @@ import StyleButton from './ComponentLec11/ButtonStyle';
 import RadioButton from './ComponentLec11/RadioButton';
 import ActivityIndicatorLOADER from './ComponentLec11/ActivityIndicatorLOADER';
 import DialogBoxMODAL from './ComponentLec11/DialogBoxModal';
+import PressableLongPress from './ComponentLec11/Pressable';
 
 const App = () => {
   return (
@@ -71,7 +72,10 @@ const App = () => {
       {/* <ActivityIndicatorLOADER /> */}
 
       {/* L32 Modal (Dialog Box) */}
-      <DialogBoxMODAL />
+      {/* <DialogBoxMODAL /> */}
+
+      {/* L33 Pressable */}
+      <PressableLongPress />
     </View>
   );
 };
