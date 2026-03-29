@@ -20,6 +20,7 @@ import ActivityIndicatorLOADER from './ComponentLec11/ActivityIndicatorLOADER';
 import DialogBoxMODAL from './ComponentLec11/DialogBoxModal';
 import PressableLongPress from './ComponentLec11/Pressable';
 import StatusBarRN from './ComponentLec11/StatusBar';
+import PlatformOS from './ComponentLec11/PlatforminRN';
 
 const App = () => {
   return (
@@ -79,7 +80,10 @@ const App = () => {
       {/* <PressableLongPress /> */}
 
       {/* L34 Status Bar */}
-      <StatusBarRN />
+      {/* <StatusBarRN /> */}
+
+      {/* L35 Platform */}
+      <PlatformOS />
     </View>
   );
 };
