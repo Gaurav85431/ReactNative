@@ -17,6 +17,7 @@ import ResponsiveDesign from './ComponentLec11/ResponsiveDesign';
 import StyleButton from './ComponentLec11/ButtonStyle';
 import RadioButton from './ComponentLec11/RadioButton';
 import ActivityIndicatorLOADER from './ComponentLec11/ActivityIndicatorLOADER';
+import DialogBoxMODAL from './ComponentLec11/DialogBoxModal';
 
 const App = () => {
   return (
@@ -67,7 +68,10 @@ const App = () => {
       {/* <RadioButton /> */}
 
       {/*  L31 Activity  Indicator (LOADER) */}
-      <ActivityIndicatorLOADER />
+      {/* <ActivityIndicatorLOADER /> */}
+
+      {/* L32 Modal (Dialog Box) */}
+      <DialogBoxMODAL />
     </View>
   );
 };
