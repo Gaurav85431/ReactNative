@@ -21,6 +21,7 @@ import DialogBoxMODAL from './ComponentLec11/DialogBoxModal';
 import PressableLongPress from './ComponentLec11/Pressable';
 import StatusBarRN from './ComponentLec11/StatusBar';
 import PlatformOS from './ComponentLec11/PlatforminRN';
+import InstallNpm from './ComponentLec11/InstallNpm';
 
 const App = () => {
   return (
@@ -83,7 +84,10 @@ const App = () => {
       {/* <StatusBarRN /> */}
 
       {/* L35 Platform */}
-      <PlatformOS />
+      {/* <PlatformOS /> */}
+
+      {/* L36  Install NPM  (Website open) */}
+      <InstallNpm />
     </View>
   );
 };
