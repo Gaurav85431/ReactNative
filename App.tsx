@@ -22,6 +22,7 @@ import PressableLongPress from './ComponentLec11/Pressable';
 import StatusBarRN from './ComponentLec11/StatusBar';
 import PlatformOS from './ComponentLec11/PlatforminRN';
 import InstallNpm from './ComponentLec11/InstallNpm';
+import DialogBoxCustom from './ComponentLec11/DialogBoxCustom';
 
 const App = () => {
   return (
@@ -87,7 +88,10 @@ const App = () => {
       {/* <PlatformOS /> */}
 
       {/* L36  Install NPM  (Website open) */}
-      <InstallNpm />
+      {/* <InstallNpm /> */}
+
+      {/* L37  DialogBox */}
+      <DialogBoxCustom />
     </View>
   );
 };
