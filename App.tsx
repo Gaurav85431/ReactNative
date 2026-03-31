@@ -25,6 +25,7 @@ import InstallNpm from './ComponentLec11/InstallNpm';
 import DialogBoxCustom from './ComponentLec11/DialogBoxCustom';
 import StackNavigation from './ComponentLec11/Navigation/StackNavigation';
 import StackNavigationTwo from './ComponentLec11/Navigation/StackNavigationTwo';
+import StackNavigationThree from './ComponentLec11/Navigation/StackNavigationThree';
 
 const App = () => {
   return (
@@ -98,7 +99,11 @@ const App = () => {
     // {/*  L38  ,  39     Stack Navigation */}
     // <StackNavigation />
 
-    <StackNavigationTwo />
+    //  L40
+    // <StackNavigationTwo />
+
+    //  L41
+    <StackNavigationThree />
 
     // </View>
   );
