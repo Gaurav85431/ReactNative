@@ -24,6 +24,7 @@ import PlatformOS from './ComponentLec11/PlatforminRN';
 import InstallNpm from './ComponentLec11/InstallNpm';
 import DialogBoxCustom from './ComponentLec11/DialogBoxCustom';
 import StackNavigation from './ComponentLec11/Navigation/StackNavigation';
+import StackNavigationTwo from './ComponentLec11/Navigation/StackNavigationTwo';
 
 const App = () => {
   return (
@@ -95,7 +96,10 @@ const App = () => {
     // {/* <DialogBoxCustom /> */}
 
     // {/*  L38  ,  39     Stack Navigation */}
-    <StackNavigation />
+    // <StackNavigation />
+
+    <StackNavigationTwo />
+
     // </View>
   );
 };
