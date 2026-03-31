@@ -23,76 +23,80 @@ import StatusBarRN from './ComponentLec11/StatusBar';
 import PlatformOS from './ComponentLec11/PlatforminRN';
 import InstallNpm from './ComponentLec11/InstallNpm';
 import DialogBoxCustom from './ComponentLec11/DialogBoxCustom';
+import StackNavigation from './ComponentLec11/Navigation/StackNavigation';
 
 const App = () => {
   return (
-    <View>
-      <Text style={{ fontSize: 30 }}> Hello </Text>
-      {/* <StyleReactNative /> */}
-      {/* <TextInputField /> */}
+    // <View style={{ flex: 1 }}>
+    // {/* <Text style={{ fontSize: 30 }}> Hello </Text> */}
+    // {/* <StyleReactNative /> */}
+    // {/* <TextInputField /> */}
 
-      {/* <FormInput /> */}
+    // {/* <FormInput /> */}
 
-      {/* Lec 14 */}
-      {/* <FlatListComponent /> */}
+    // {/* Lec 14 */}
+    // {/* <FlatListComponent /> */}
 
-      {/* Lec 15 */}
-      {/* <ListWithMap /> */}
+    // {/* Lec 15 */}
+    // {/* <ListWithMap /> */}
 
-      {/* Lec 16 */}
-      {/* <GridList /> */}
+    // {/* Lec 16 */}
+    // {/* <GridList /> */}
 
-      {/* Lec 17 */}
-      {/* <FlatListLoop /> */}
+    // {/* Lec 17 */}
+    // {/* <FlatListLoop /> */}
 
-      {/* Lec18 */}
-      {/* <SectionListList /> */}
+    // {/* Lec18 */}
+    // {/* <SectionListList /> */}
 
-      {/* L19 */}
-      {/* <ClassComponent /> */}
+    // {/* L19 */}
+    // {/* <ClassComponent /> */}
 
-      {/* L20 */}
-      {/* <ClassComponentTwo /> */}
+    // {/* L20 */}
+    // {/* <ClassComponentTwo /> */}
 
-      {/* L21-22 (Hook) L23 ,24 useEffect */}
-      {/* <UseEffectHook /> */}
+    // {/* L21-22 (Hook) L23 ,24 useEffect */}
+    // {/* <UseEffectHook /> */}
 
-      {/* L25 Show & Hide */}
-      {/* <ShowHide /> */}
+    // {/* L25 Show & Hide */}
+    // {/* <ShowHide /> */}
 
-      {/*  Lec 26   Unmounted Component */}
-      {/* <UnmountedComponent /> */}
+    // {/*  Lec 26   Unmounted Component */}
+    // {/* <UnmountedComponent /> */}
 
-      {/*  Lec 27 Responsive Layout Flexbox */}
-      {/* <ResponsiveDesign /> */}
+    // {/*  Lec 27 Responsive Layout Flexbox */}
+    // {/* <ResponsiveDesign /> */}
 
-      {/* L28 Touchable Highlight(Button) */}
-      {/* <StyleButton /> */}
+    // {/* L28 Touchable Highlight(Button) */}
+    // {/* <StyleButton /> */}
 
-      {/* L29 , L30  Radio Button */}
-      {/* <RadioButton /> */}
+    // {/* L29 , L30  Radio Button */}
+    // {/* <RadioButton /> */}
 
-      {/*  L31 Activity  Indicator (LOADER) */}
-      {/* <ActivityIndicatorLOADER /> */}
+    // {/*  L31 Activity  Indicator (LOADER) */}
+    // {/* <ActivityIndicatorLOADER /> */}
 
-      {/* L32 Modal (Dialog Box) */}
-      {/* <DialogBoxMODAL /> */}
+    // {/* L32 Modal (Dialog Box) */}
+    // {/* <DialogBoxMODAL /> */}
 
-      {/* L33 Pressable */}
-      {/* <PressableLongPress /> */}
+    // {/* L33 Pressable */}
+    // {/* <PressableLongPress /> */}
 
-      {/* L34 Status Bar */}
-      {/* <StatusBarRN /> */}
+    // {/* L34 Status Bar */}
+    // {/* <StatusBarRN /> */}
 
-      {/* L35 Platform */}
-      {/* <PlatformOS /> */}
+    // {/* L35 Platform */}
+    // {/* <PlatformOS /> */}
 
-      {/* L36  Install NPM  (Website open) */}
-      {/* <InstallNpm /> */}
+    // {/* L36  Install NPM  (Website open) */}
+    // {/* <InstallNpm /> */}
 
-      {/* L37  DialogBox */}
-      <DialogBoxCustom />
-    </View>
+    // {/* L37  DialogBox */}
+    // {/* <DialogBoxCustom /> */}
+
+    // {/*  L38  ,  39     Stack Navigation */}
+    <StackNavigation />
+    // </View>
   );
 };
 
