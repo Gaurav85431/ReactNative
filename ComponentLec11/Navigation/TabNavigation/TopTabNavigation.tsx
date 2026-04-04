@@ -1,10 +1,10 @@
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { Text, View } from 'react-native';
 
 // Bottom Navigation
-const Tab = createBottomTabNavigator();
-const TabNavigation = () => {
+const Tab = createMaterialTopTabNavigator();
+const TopTabNavigation = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator>
@@ -15,7 +15,7 @@ const TabNavigation = () => {
   );
 };
 
-export default TabNavigation;
+export default TopTabNavigation;
 
 const Login = () => {
   return (
