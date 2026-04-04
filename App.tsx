@@ -30,6 +30,7 @@ import StackNavigationFourProps from './ComponentLec11/Navigation/StackNavigatio
 import TabNavigation from './ComponentLec11/Navigation/TabNavigation/TabNavigation';
 import TopTabNavigation from './ComponentLec11/Navigation/TabNavigation/TopTabNavigation';
 import APICall from './ComponentLec11/APICall';
+import APICallFlatlist from './ComponentLec11/APICallFlatlist';
 
 const App = () => {
   return (
@@ -118,8 +119,12 @@ const App = () => {
     // L45 Top Tab navigation
     // <TopTabNavigation />
 
-    // Api Call
-    <APICall />
+    // Api Call L46,47
+    // <APICall />
+
+
+    //  L48
+    <APICallFlatlist />
 
     // </View>
   );
