@@ -27,6 +27,7 @@ import StackNavigation from './ComponentLec11/Navigation/StackNavigation';
 import StackNavigationTwo from './ComponentLec11/Navigation/StackNavigationTwo';
 import StackNavigationThree from './ComponentLec11/Navigation/StackNavigationThree';
 import StackNavigationFourProps from './ComponentLec11/Navigation/StackNavigationFourProps';
+import TabNavigation from './ComponentLec11/Navigation/TabNavigation/TabNavigation';
 
 const App = () => {
   return (
@@ -107,7 +108,10 @@ const App = () => {
     // <StackNavigationThree />
 
     // L43 (42 nhi hai)
-    <StackNavigationFourProps />
+    // <StackNavigationFourProps />
+
+    // L44  Tab Navigation
+    <TabNavigation />
 
     // </View>
   );
